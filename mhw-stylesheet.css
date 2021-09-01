@@ -1,0 +1,88 @@
+@import url(https://use.typekit.net/efj7gzu.css);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
+
+:root {
+	font-size: 1em;
+}
+
+.ribbon {
+	width: 100%;
+}
+
+body {
+	color: white;
+	background-color: #1e345d;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 5px 5px 12px black;
+	margin-top: 20px;
+}
+
+.quote {
+	font-family: 'Patrick Hand', cursive;
+	margin-bottom: 60px;
+	text-align: center;
+	margin-top: 8px;
+	font-size: 1.5em;
+	color: #89a9e2;
+	font-weight: bold;
+}
+
+.info > h1 {
+	font-size: 1.6em;
+	font-family: Trajan Pro 3;
+	color: #a2863d;
+	margin: 15px;
+}
+
+.info {
+	text-align: center;
+	font-family: adobe-garamond-pro;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.prd {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.red {
+	color: rgb(245, 51, 63);
+}
+
+.blue {
+	color: rgb(135, 169, 226);
+}
+
+.yellow {
+	 color: rgb(255, 221, 0);
+}
+
+.green {
+	color: rgb(118, 188, 33);
+}
+
+.gold {
+	color: #a2863d;
+}
+.table {
+	margin-bottom: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid salmon;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+td:hover .red:nth-of-type(div) {
+	color: lime;
+}

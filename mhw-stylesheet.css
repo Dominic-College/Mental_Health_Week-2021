@@ -97,6 +97,10 @@ table {
 	color: var(--gold);
 }
 
+.table2 > td:hover {
+	color: var(--gold);
+}
+
 .tabletitle {
 	margin-bottom: 30px;
 }

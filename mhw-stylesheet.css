@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
 
 :root {
-	font-size: 1em;
+	font-size: 1.3em;
+	--gold: #a2863d;
 }
 
 .ribbon {
@@ -18,7 +19,7 @@ body {
 .title {
 	font-size: 3em;
 	text-align: center;
-	text-shadow: 5px 5px 12px black;
+	text-shadow: 3px 3px 8px #000000;
 	margin-top: 20px;
 }
 
@@ -30,6 +31,7 @@ body {
 	font-size: 1.5em;
 	color: #89a9e2;
 	font-weight: bold;
+	text-shadow: 3px 3px 8px #000000;
 }
 
 .info > h1 {
@@ -37,6 +39,7 @@ body {
 	font-family: Trajan Pro 3;
 	color: #a2863d;
 	margin: 15px;
+	text-shadow: 3px 3px 8px #000000;
 }
 
 .info {
@@ -48,27 +51,27 @@ body {
 
 .prd {
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .red {
-	color: rgb(245, 51, 63);
+	color: #f5333f;
 }
 
 .blue {
-	color: rgb(135, 169, 226);
+	color: #2450ff;
 }
 
 .yellow {
-	 color: rgb(255, 221, 0);
+	 color: #ffdd00;
 }
 
 .green {
-	color: rgb(118, 188, 33);
+	color: #76bc21;
 }
 
 .gold {
-	color: #a2863d;
+	color: var(--gold)
 }
 .table {
 	margin-bottom: 300px;
@@ -78,11 +81,22 @@ body {
 }
 
 table, th, td {
-	border: 1px solid salmon;
+	border: 1px solid #8b1c40;
 	border-collapse: collapse;
 	padding: 10px;
 }
 
-td:hover .red:nth-of-type(div) {
-	color: lime;
+table {
+	border: 3px solid #8b1c40;
+	text-shadow: 3px 3px 8px #000000;
+	font-size: 1.1em;
+	border: 5px ridge #8B1C40;
+}
+
+.blue:hover,.red:hover,.green:hover,.yellow:hover {
+	color: var(--gold);
+}
+
+.tabletitle {
+	margin-bottom: 30px;
 }

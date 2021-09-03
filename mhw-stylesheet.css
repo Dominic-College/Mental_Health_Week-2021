@@ -73,8 +73,9 @@ body {
 .gold {
 	color: var(--gold)
 }
+
 .table {
-	margin-bottom: 300px;
+	margin-bottom: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -87,7 +88,6 @@ table, th, td {
 }
 
 table {
-	border: 3px solid #8b1c40;
 	text-shadow: 3px 3px 8px #000000;
 	font-size: 1.1em;
 	border: 5px ridge #8B1C40;

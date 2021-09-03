@@ -50,7 +50,7 @@ body {
 	font-family: adobe-garamond-pro;
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .prd {
@@ -80,7 +80,7 @@ body {
 }
 
 .table {
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;

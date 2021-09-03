@@ -30,6 +30,13 @@ body {
 	text-shadow: 3px 3px 8px #000000;
 }
 
+.footer {
+    font-family: skippy-sharp, sans-serif;
+	color: #a2863d;
+	text-shadow: 3px 3px 8px #000000;
+	margin-top: -40px;
+}
+
 .info > h1 {
 	font-size: 1.6em;
 	font-family: Trajan Pro 3;
@@ -43,6 +50,7 @@ body {
 	font-family: adobe-garamond-pro;
 	padding-left: 100px;
 	padding-right: 100px;
+	margin-bottom: 200px;
 }
 
 .prd {

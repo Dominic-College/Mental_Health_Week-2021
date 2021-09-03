@@ -46,6 +46,7 @@ body {
 }
 
 .prd {
+	white-space: nowrap;
 	text-align: center;
 	font-size: 1em;
 }
@@ -98,12 +99,33 @@ table {
 	margin-bottom: 30px;
 }
 
-/* this is all the css thats doing that. i have no idea why the table goes tiny either */
+/* K-6 Content */
+
+K-6_Stuff {
+	display: flex;
+	flex-direction: column;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 
 .k-6_image {
-	display: flex;
-	justify-content: center;
-	margin-left: 250px;
-	margin-right: 250px;
+	float: right;
+	clear: both;
+	content: "";
+	max-width: 500px;
+	margin: 20px 7% 50px 50px;
+}
+
+.k-6_img {
+	margin: 20px;
+	width: 500px;
+}
+
+.k-6_table {
+	display: block;
+	margin: 20px 20px 50px 50px;
+	min-width: 200px;
 }
 

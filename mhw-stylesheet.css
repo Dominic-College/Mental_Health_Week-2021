@@ -50,7 +50,7 @@ body {
 	font-family: adobe-garamond-pro;
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .prd {
@@ -80,14 +80,14 @@ body {
 }
 
 .table {
-	margin-bottom: 50px;
+	margin-bottom: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
 
-table, th, td {
+th, td {
 	border: 1px solid #8b1c40;
 	border-collapse: collapse;
 	padding: 10px;
@@ -97,6 +97,8 @@ table {
 	text-shadow: 3px 3px 8px #000000;
 	font-size: 1.1em;
 	border: 5px ridge #8B1C40;
+	text-align: center;
+	border-collapse: collapse;
 }
 
 .blue:hover,.red:hover,.green:hover,.yellow:hover {
@@ -115,7 +117,6 @@ K-6_Stuff {
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 .k-6_image {
@@ -137,3 +138,8 @@ K-6_Stuff {
 	min-width: 200px;
 }
 
+.small-text {
+	font-size: 0.5em;
+	font-weight: normal;
+	padding-top: 4px;
+}

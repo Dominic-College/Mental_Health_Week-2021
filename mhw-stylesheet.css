@@ -30,13 +30,6 @@ body {
 	text-shadow: 3px 3px 8px #000000;
 }
 
-.footer {
-    font-family: skippy-sharp, sans-serif;
-	color: #a2863d;
-	text-shadow: 3px 3px 8px #000000;
-	margin-top: -40px;
-}
-
 .info > h1 {
 	font-size: 1.6em;
 	font-family: Trajan Pro 3;
@@ -114,28 +107,33 @@ table {
 
 .K-6_Stuff {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 90%;
+	max-width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .k-6_image {
-	float: right;
+	text-align: center;
 	max-width: 500px;
-	margin: 20px 7% 50px 50px;
+	margin: 20px;
 }
 
 .k-6_img {
-	margin: 20px;
+	margin-bottom: 20px;
 	width: 500px;
 }
 
 .k-6_table {
-	float: left;
-	clear: both;
-	content: "";
-	margin: 20px 20px 50px 50px;
-	min-width: 300px;
+	margin: 20px;
+	min-width: 250px;
+}
+
+.footer {
+	text-align: center;
+    font-family: skippy-sharp, sans-serif;
+	color: #a2863d;
+	text-shadow: 3px 3px 8px #000000;
+	margin-bottom: 50px;
 }

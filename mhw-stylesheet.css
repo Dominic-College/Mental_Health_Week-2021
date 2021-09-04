@@ -50,7 +50,7 @@ body {
 	font-family: adobe-garamond-pro;
 	padding-left: 100px;
 	padding-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .prd {
@@ -80,12 +80,11 @@ body {
 }
 
 .table {
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
-
 
 th, td {
 	border: 1px solid #8b1c40;
@@ -105,15 +104,18 @@ table {
 	color: var(--gold);
 }
 
-.tabletitle {
-	margin-bottom: 30px;
+.small-text {
+	font-size: 0.5em;
+	font-weight: normal;
+	padding-top: 4px;
 }
 
 /* K-6 Content */
 
-K-6_Stuff {
+.K-6_Stuff {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -121,8 +123,6 @@ K-6_Stuff {
 
 .k-6_image {
 	float: right;
-	clear: both;
-	content: "";
 	max-width: 500px;
 	margin: 20px 7% 50px 50px;
 }
@@ -133,13 +133,9 @@ K-6_Stuff {
 }
 
 .k-6_table {
-	display: block;
+	float: left;
+	clear: both;
+	content: "";
 	margin: 20px 20px 50px 50px;
-	min-width: 200px;
-}
-
-.small-text {
-	font-size: 0.5em;
-	font-weight: normal;
-	padding-top: 4px;
+	min-width: 300px;
 }

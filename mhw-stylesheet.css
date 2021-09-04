@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
 
 :root {
-	font-size: 1.2em;
 	--gold: #a2863d;
 }
 
@@ -10,6 +9,10 @@ body {
 	color: white;
 	background-color: #1e345d;
 	margin: 0 auto;
+}
+
+p {
+	font-size: 1.2em;
 }
 
 .title {
@@ -21,7 +24,7 @@ body {
 
 .quote {
 	font-family: 'Patrick Hand', cursive;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	text-align: center;
 	margin-top: 8px;
 	font-size: 1.5em;
@@ -116,18 +119,42 @@ table {
 
 .k-6_image {
 	text-align: center;
-	max-width: 500px;
-	margin: 20px;
+	max-width: 400px;
+	margin: 20px 10px;
 }
 
 .k-6_img {
 	margin-bottom: 20px;
-	width: 500px;
+	width: 400px;
 }
 
 .k-6_table {
-	margin: 20px;
-	min-width: 250px;
+	margin: 20px 10px;
+	min-width: 180px;
+}
+
+.k-6_extra_text {
+	width: 400px;
+}
+
+.k6-h2 {
+	font-family: trajan-pro-3, serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #f15d3f;
+	font-size: 1.2em;
+	text-shadow: 3px 3px 8px #000000;
+	margin-bottom: -20px;
+}
+
+.k-6_small-text {
+	font-size: 0.8em;
+}
+
+.k-6_gold {
+	text-shadow: 3px 3px 8px #000000;
+	color: var(--gold)
+	
 }
 
 .footer {
